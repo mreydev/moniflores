@@ -1,5 +1,14 @@
 
 
+
+onload = () => {
+
+    document.body.classList.remove("container");
+
+document.addEventListener('click', playSound)
+ };
+
+
 const playSound = function() {
     let element = document.createElement('div');
     element.setAttribute('style', 'display: none');
@@ -12,12 +21,4 @@ const playSound = function() {
     document.removeEventListener('click', playSound);
 }
 
-document.addEventListener('click', playSound);
-//onload = () => {
-
-   // document.body.classList.remove("container");
-
- // };
-
-
-
+document.addEventListener('click', playSound)
