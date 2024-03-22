@@ -12,8 +12,7 @@ const playSound = function() {
     document.removeEventListener('click', playSound);
 }
 
-document.addEventListener('click', playSound
-
+document.addEventListener('click', playSound);
 onload = () => {
 
     document.body.classList.remove("container");
